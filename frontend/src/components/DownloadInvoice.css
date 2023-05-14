@@ -1,0 +1,75 @@
+.bgrnd {
+    background-color:white;
+    margin-top: 100px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.row .btn1 {
+    color: white;
+    background-color: black;
+}
+
+.h3 {
+    color: black;
+    margin-left: 350px;
+    
+}
+
+.li {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ul {
+    color: black;
+    padding-left: 100px;
+}
+
+.hr {
+    color: black;
+    height: 5px;
+}
+
+.tbody {
+    margin-left: 150px;
+}
+
+.h1 {
+    color: black;
+    float: left;
+}
+
+.name {
+    float: left;
+}
+
+.photo{
+    background: url("../images/paid.jpg") no-repeat center;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+ background-size: cover;
+    margin-left: 250px;
+    width: 200px;
+    height: 200px;
+   
+  }
+
+  .p {
+      color: black;
+      margin-left: 350px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: larger;
+  }
+
+  .background {
+      background-color: white;
+      border: 1px solid;
+      border-color: black;
+  }
+
+  .td {
+      color: black;
+  }

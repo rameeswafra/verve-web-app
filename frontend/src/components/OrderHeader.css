@@ -1,0 +1,45 @@
+.header{
+    overflow: hidden;
+    background-color: #000000;
+}
+
+.header p{
+    float:left;
+    color:white;
+    text-align:center;
+    padding: 25px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 15px;
+    border-radius: 4px;
+
+}
+.header p.logo{
+    font-size:30px;
+    font-weight :bold;
+    color:white;
+    font-family: 'Times new romen';
+}
+.header p:hover{
+    background-color: #FFCCCB;
+    color: #F778A1;
+}
+.header p.active{
+    background-color: #FBBBB9;
+    color:rgb(255, 255, 255);
+}
+.header-right{
+    float:right;
+}
+@media screen and (max-width: 500px){
+  .header {
+   float: none;
+    display:block;
+    text-align:left;
+    background-color:#E38AAE;
+    font-family: 'Times New Roman';
+}
+.header-right{
+    float:none;
+}
+}

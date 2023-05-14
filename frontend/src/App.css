@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.img{
+  background: url("./images/boat.jpg") no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+ background-size: cover;
+ 
+}
+
+.homebtn {
+  background-color:cornflowerblue;
+  color: white;
+}
+
+.Navbtn{
+  margin-right: 95px;
+  
+}
+
+
+
+.upload{
+  margin-left: 18px;
+}
+
+.element{
+  margin-left:15px;
+}
+
+
+
+.image{
+  width:100px;
+  height:100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.search {
+  padding-right: 15px;
+  font-size: 15px;
+  margin-right: 1px;
+  float:right;
+  
+  
+}
+
+.search-container {
+  background-color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 40%;
+}
+
+.btnCenter {
+  text-align: center;
+}
+
+.card {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.backBtn {
+  margin-left: 10px;
+}
+
+.homeNavBar {
+  float:right;
+}
